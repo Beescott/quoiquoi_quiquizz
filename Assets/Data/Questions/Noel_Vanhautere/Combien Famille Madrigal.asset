@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd30acbbb7a43c8a3b13006355c9802, type: 3}
+  m_Name: Combien Famille Madrigal
+  m_EditorClassIdentifier: 
+  title: Combien de personne y a t-il de personnes dans la famille Madrigal ?
+  answer:
+    type: 6
+    singleTextAnswer: 13
+    multipleChoiceIndexAnswer: 0
+    spriteAnswer: {fileID: 21300000, guid: a098a36f7d4bd08438ed2aa97e9f994a, type: 3}
+  choices: []
+  category: 1
+  background: {fileID: 0}
