@@ -8,6 +8,8 @@
         Animaux,
         Geographie,
         Litterature,
-        ModeEtTemps
+        ModeEtTemps,
+        LeagueOfLegends,
+        QuestionSurQuentin,
     }
 }

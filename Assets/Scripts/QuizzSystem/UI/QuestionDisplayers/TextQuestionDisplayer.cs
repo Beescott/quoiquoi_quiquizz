@@ -112,7 +112,7 @@ namespace QuizzSystem.UI.QuestionDisplayers
             sequence.Append(quitButton.transform.DOScale(Vector3.one, 0.2f).SetEase(Ease.InBack));
         }
 
-        private void OnClickShowAnswer()
+        protected virtual void OnClickShowAnswer()
         {
             DisplayAnswer(_question.Answer);
         }

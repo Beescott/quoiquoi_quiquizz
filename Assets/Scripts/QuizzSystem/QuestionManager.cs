@@ -13,6 +13,7 @@ namespace QuizzSystem
         [SerializeField] private TextQuestionDisplayer textQuestionDisplayer;
         [SerializeField] private PictureQuestionDisplayer pictureQuestionDisplayer;
         [SerializeField] private MusicQuestionDisplayer musicQuestionDisplayer;
+        [SerializeField] private VideoQuestionDisplayer videoQuestionDisplayer;
         
         private EventBinding<QuestionClickedEvent> _questionClickedBinding;
         private EventBinding<QuestionQuitEvent> _questionQuitBinding;
@@ -29,6 +30,9 @@ namespace QuizzSystem
                     break;
                 case MusicQuestion:
                     questionDisplayer = musicQuestionDisplayer;
+                    break;
+                case VideoQuestion:
+                    questionDisplayer = videoQuestionDisplayer;
                     break;
                 default:
                     questionDisplayer = textQuestionDisplayer;
