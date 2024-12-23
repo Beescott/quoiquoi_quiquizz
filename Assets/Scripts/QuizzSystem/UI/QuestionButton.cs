@@ -39,11 +39,19 @@ namespace QuizzSystem.UI
             if (question == null)
                 return;
 
-            bool foundColor = CategoryColorAssigner.Instance.TryGetColorFromCategory(question.Category, out Color color);
-            if (foundColor == false)
-                return;
+            if (question.ButtonDisplay == ButtonDisplay.Number)
+            {
+                bool foundColor = CategoryColorAssigner.Instance.TryGetColorFromCategory(question.Category, out Color color);
+                if (foundColor == false)
+                    return;
 
-            image.color = color;
+                image.color = color;
+                return;
+            }
+
+            image.color = Color.white;
+            buttonIndex.text = string.Empty;
+            image.sprite = question.ButtonSprite;
         }
 
         private void OnDisable()

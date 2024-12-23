@@ -60,6 +60,7 @@
      <Compile Include="Assets/Scripts/QuizzSystem/UI/QuestionButton.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/Events/QuestionClickedEvent.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/Questions/TextQuestion.cs" />
+     <Compile Include="Assets/Scripts/QuizzSystem/UI/ButtonDisplay.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/UI/QuestionDisplayers/VideoQuestionDisplayer.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/QuestionManager.cs" />
      <Compile Include="Assets/Scripts/EventBus/EventBus.cs" />
@@ -84,7 +85,7 @@
      <Folder Include="Assets/Scripts/QuizzSystem/UI" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets/TextMesh Pro/Sprites" />
-     <Folder Include="Assets/Videos" />
+     <Folder Include="Assets/StreamingAssets" />
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
      <Folder Include="Assets/Scripts" />
      <Folder Include="Assets/Settings" />

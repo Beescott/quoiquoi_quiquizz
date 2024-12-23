@@ -11,6 +11,8 @@ namespace QuizzSystem.Questions.Editor
         private SerializedProperty _choices;
         private SerializedProperty _background;
         private SerializedProperty _category;
+        private SerializedProperty _buttonDisplay;
+        private SerializedProperty _buttonSprite;
         
         protected virtual void OnEnable()
         {
@@ -19,6 +21,8 @@ namespace QuizzSystem.Questions.Editor
             _choices = serializedObject.FindProperty("choices");
             _background = serializedObject.FindProperty("background");
             _category = serializedObject.FindProperty("category");
+            _buttonDisplay = serializedObject.FindProperty("buttonDisplay");
+            _buttonSprite = serializedObject.FindProperty("buttonSprite");
         }
         
         public override void OnInspectorGUI()
@@ -27,6 +31,14 @@ namespace QuizzSystem.Questions.Editor
             EditorGUILayout.PropertyField(_title);
             EditorGUILayout.PropertyField(_category);
             EditorGUILayout.PropertyField(_choices);
+            
+            EditorGUILayout.LabelField("Button");
+            EditorGUILayout.PropertyField(_buttonDisplay);
+            if (_buttonDisplay.enumValueIndex == 1)
+            {
+                EditorGUILayout.PropertyField(_buttonSprite);
+            }
+            
             DisplayOtherParameters();
             
             EditorGUILayout.PropertyField(_answer);

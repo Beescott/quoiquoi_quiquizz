@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fd30acbbb7a43c8a3b13006355c9802, type: 3}
-  m_Name: TextQuestion
+  m_Name: Cage Morgana
   m_EditorClassIdentifier: 
   title: "Une fois max\xE9e, combien de temps dure la cage de Morgana ?"
   answer:
@@ -25,3 +25,5 @@ MonoBehaviour:
   - 5 secondes
   category: 7
   background: {fileID: 0}
+  buttonSprite: {fileID: 21300000, guid: 3074e3b047258ee4590155f1ed4b396c, type: 3}
+  buttonDisplay: 1

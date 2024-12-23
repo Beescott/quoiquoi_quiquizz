@@ -19,4 +19,7 @@ MonoBehaviour:
     multipleChoiceIndexAnswer: 0
     spriteAnswer: {fileID: 21300000, guid: c0907cf830772bc43a4e63c76a14a861, type: 3}
   choices: []
+  category: 0
   background: {fileID: 0}
+  buttonSprite: {fileID: 0}
+  buttonDisplay: 0
