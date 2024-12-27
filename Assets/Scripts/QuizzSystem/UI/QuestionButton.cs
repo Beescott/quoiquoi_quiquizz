@@ -15,6 +15,7 @@ namespace QuizzSystem.UI
         [SerializeField, HideInInspector] private Image image;
 
         public Question Question => question;
+        public bool HasBeenAnswered { get; private set; } = false;
         
         public void AssignQuestion(Question q)
         {
@@ -30,6 +31,7 @@ namespace QuizzSystem.UI
             });
 
             image.color = Color.grey;
+            HasBeenAnswered = true;
             button.onClick.RemoveAllListeners();
         }
         
