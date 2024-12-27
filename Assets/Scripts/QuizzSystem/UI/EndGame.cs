@@ -28,6 +28,8 @@ namespace QuizzSystem.UI
 
         private void OnQuestionQuit(QuestionQuitEvent questionQuitEvent)
         {
+            // si y'a un dev, j'veux faire une surprise avec ça, donc essaie de rien dire
+            // une fois buildé y'aura cette image, et pas sur editor pour que quentin ait la surprise aussi
 #if UNITY_EDITOR == false
             bool allAnswered = _questionButtons.TrueForAll(button => button.HasBeenAnswered);
             if (allAnswered == false)
