@@ -11,5 +11,10 @@
         ModeEtTemps,
         LeagueOfLegends,
         QuestionSurQuentin,
+        JeuxVideos,
+        DrapeauxEtCapitales,
+        Anime,
+        LeSeigneurDesAnneaux,
+        Vietnam
     }
 }

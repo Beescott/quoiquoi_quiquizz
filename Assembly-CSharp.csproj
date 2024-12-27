@@ -72,7 +72,9 @@
      <Compile Include="Assets/Scripts/EventBus/EventBinding.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/Answers/AnswerType.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/Questions/QuestionLoader.cs" />
+     <Compile Include="Assets/Scripts/QuizzSystem/QuestionConfig.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/UI/ChoiceDisplayer.cs" />
+     <Compile Include="Assets/Scripts/QuizzSystem/QuestionPager.cs" />
      <Compile Include="Assets/Scripts/QuizzSystem/UI/QuestionDisplayers/MusicQuestionDisplayer.cs" />
      <Compile Include="Assets/Scripts/Utility/ScriptableSingleton.cs" />
      <Compile Include="Assets/Scripts/EventBus/Events.cs" />
@@ -96,6 +98,7 @@
      <Folder Include="Assets/TextMesh Pro/Resources" />
      <Folder Include="Assets/Scripts/EventBus" />
      <Folder Include="Assets/Data/Questions" />
+     <Folder Include="Assets/Data/Questions/Noel_Nguyen" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets/Settings/Scenes" />
      <Folder Include="Assets/TextMesh Pro" />
@@ -132,6 +135,7 @@
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/TextMesh Pro/Documentation" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets/Sprites/Noel_NGUYEN" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <Reference Include="UnityEngine">

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbb7078a9e34a5095e1674be3b35839, type: 3}
+  m_Name: animal_loup
+  m_EditorClassIdentifier: 
+  title: "\xC0 quel animal appartient ce cri ? Et comment appelle-ton le cri ?"
+  answer:
+    type: 2
+    singleTextAnswer: Le loup (il hurle)
+    multipleChoiceIndexAnswer: 0
+    spriteAnswer: {fileID: 0}
+  choices: []
+  category: 3
+  background: {fileID: 0}
+  buttonSprite: {fileID: 0}
+  buttonDisplay: 0
+  audioClip: {fileID: 8300000, guid: f231da26932cf41608b42c286ce32934, type: 3}

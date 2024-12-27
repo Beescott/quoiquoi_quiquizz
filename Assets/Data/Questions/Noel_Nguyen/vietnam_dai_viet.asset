@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd30acbbb7a43c8a3b13006355c9802, type: 3}
+  m_Name: vietnam_dai_viet
+  m_EditorClassIdentifier: 
+  title: "Quel est le nom du royaume qui a \xE9t\xE9 fond\xE9 en 939 apr\xE8s J.C.,
+    marquant le d\xE9but de l'ind\xE9pendance du Vietnam vis-\xE0-vis de la Chine
+    ?"
+  answer:
+    type: 2
+    singleTextAnswer: "Le Royaume de \u0110\u1EA1i Vi\u1EC7t"
+    multipleChoiceIndexAnswer: 0
+    spriteAnswer: {fileID: 0}
+  choices: []
+  category: 13
+  background: {fileID: 0}
+  buttonSprite: {fileID: 0}
+  buttonDisplay: 0

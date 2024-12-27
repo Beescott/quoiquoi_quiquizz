@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fd30acbbb7a43c8a3b13006355c9802, type: 3}
+  m_Name: vietnam_da_nang
+  m_EditorClassIdentifier: 
+  title: "Quelle est la plus grande ville portuaire du Vietnam, situ\xE9e dans la
+    r\xE9gion centrale et connue pour sa vieille ville et son r\xF4le dans le commerce
+    international ?"
+  answer:
+    type: 2
+    singleTextAnswer: Da Nang
+    multipleChoiceIndexAnswer: 0
+    spriteAnswer: {fileID: 0}
+  choices: []
+  category: 13
+  background: {fileID: 0}
+  buttonSprite: {fileID: 0}
+  buttonDisplay: 0

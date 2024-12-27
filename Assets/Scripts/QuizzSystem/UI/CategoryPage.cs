@@ -2,6 +2,7 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
+using Utility;
 
 namespace QuizzSystem.UI
 {
@@ -36,7 +37,7 @@ namespace QuizzSystem.UI
                     continue;
                 
                 CategoryDisplayer categoryDisplayer = Instantiate(categoryDisplayerPrefab, categoryParent);
-                categoryDisplayer.SetCategory(category.ToString(), color);
+                categoryDisplayer.SetCategory(category.ToFormattedText(), color);
                 categoryDisplayer.transform.localScale = Vector3.zero;
                 _displayers.Add(categoryDisplayer);
             }
